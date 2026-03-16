@@ -16,14 +16,14 @@ User pastes a client brief → AI generates complete scope, timeline, cost estim
 
 ## Tasks
 
-- [ ] 1. Create next.config.ts
-- [ ] 2. Create tsconfig.json
-- [ ] 3. Create tailwind.config.ts
-- [ ] 4. Create src/styles/globals.css
-- [ ] 5. Create drizzle.config.ts
-- [ ] 6. Create drizzle/schema.ts with all tables (users, organizations, brand_profiles, subscriptions, proposals, proposal_sections, scope_items, timeline_phases, usage_events)
-- [ ] 7. Run drizzle-kit push to create tables in PostgreSQL
-- [ ] 8. Create src/lib/db.ts (Drizzle client)
+- [x] 1. Create next.config.ts
+- [x] 2. Create tsconfig.json
+- [x] 3. Create tailwind.config.ts
+- [x] 4. Create src/styles/globals.css
+- [x] 5. Create drizzle.config.ts
+- [x] 6. Create drizzle/schema.ts with all tables (users, organizations, brand_profiles, subscriptions, proposals, proposal_sections, scope_items, timeline_phases, usage_events)
+- [x] 7. Run drizzle-kit push to create tables in PostgreSQL
+- [x] 8. Create src/lib/db.ts (Drizzle client)
 - [ ] 9. Create src/lib/auth.ts (Better Auth config with email + Google)
 - [ ] 10. Create src/lib/stripe.ts (Stripe client + price IDs + plan limits)
 - [ ] 11. Create src/lib/utils/cn.ts (className utility)
