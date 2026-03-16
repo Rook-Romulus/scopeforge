@@ -1,0 +1,7 @@
+peravine.tech {
+  reverse_proxy localhost:3000
+}
+
+www.peravine.tech {
+  redir https://peravine.tech{uri} permanent
+}

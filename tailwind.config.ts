@@ -1,7 +1,6 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  darkMode: ["class"],
   content: [
     "./src/app/**/*.{ts,tsx}",
     "./src/components/**/*.{ts,tsx}",
@@ -16,12 +15,6 @@ const config: Config = {
           primary: "#3b82f6",
           accent: "#7c3aed",
         },
-      },
-      borderRadius: {
-        xl: "1.25rem",
-      },
-      boxShadow: {
-        glow: "0 0 40px rgba(59, 130, 246, 0.25)",
       },
     },
   },
